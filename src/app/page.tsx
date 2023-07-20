@@ -1,4 +1,4 @@
-import Card from "./components/Card";
+import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
           </p>
         </div>
         <div className="mb-32 flex text-center lg:mb-0 lg:text-left">
-          <Card/>
-          <Card/>
-          <Card/>
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
         </div>
       </main>
     

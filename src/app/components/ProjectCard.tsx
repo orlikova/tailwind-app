@@ -1,4 +1,4 @@
-function Card() {
+function ProjectCard() {
     return (
       <a
         href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -19,4 +19,4 @@ function Card() {
       )
   }
 
-  export default Card;
+  export default ProjectCard;
