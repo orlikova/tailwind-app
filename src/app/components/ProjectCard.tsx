@@ -12,7 +12,7 @@ function ProjectCard() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+        <p className={`m-0 max-w-[30ch] text-sm text-stone-500`}>
           Learn about Next.js in an interactive course with&nbsp;quizzes!
         </p>
       </a>
