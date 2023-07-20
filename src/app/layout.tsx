@@ -1,6 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import {
+  Bars3Icon
+} from '@heroicons/react/24/outline'
+import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +20,35 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className='bg-stone-300 shadow-md'>
+        <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div className="flex lg:flex-1">
+          <a href="#" className="-m-1.5 p-1.5">
+            Logo
+          </a>
+        </div>
+        <div>
+          <a href="#" className="px-2 text-sm font-semibold leading-6 text-gray-50">
+            Home
+          </a>
+          <a href="#" className="px-2 text-sm font-semibold leading-6 text-gray-50">
+            Projects
+          </a>
+          <a href="#" className="px-2 text-sm font-semibold leading-6 text-gray-50">
+            Contact
+          </a>
+        </div>
+
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" className="rounded-md bg-emerald-900 px-3.5 py-2.5 text-sm font-semibold leading-6 text-gray-50">
+            DONATE
+          </a>
+        </div>
+      </nav>
+        </header>      
+        {children}
+      </body>
     </html>
   )
 }
