@@ -6,7 +6,8 @@ function ProjectCard() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2 className={`mb-3 text-2xl font-semibold text-stone-600`}>
+        <img src="https://images.unsplash.com/photo-1545864968-f6031e1790c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWlsaXRhcnklMjBkcm9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" />
+        <h2 className={`my-3 text-2xl font-semibold text-stone-600`}>
           Project{' '}
           <span className="text-stone-600 inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
